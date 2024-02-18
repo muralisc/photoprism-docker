@@ -103,6 +103,7 @@ services:
       # "/host/folder:/photoprism/folder"                # Example
       - "/home/murali/data/footage_converted/2023:/photoprism/originals/2023"               # Original media files (DO NOT REMOVE)
       - "/home/murali/data/footage_converted/2022:/photoprism/originals/2022"               # Original media files (DO NOT REMOVE)
+      - "/home/murali/data/footage_converted/2021:/photoprism/originals/2021"               # Original media files (DO NOT REMOVE)
       - "/home/murali/data/tmp/photoprism/storage:/photoprism/storage"                  # *Writable* storage folder for cache, database, and sidecar files (DO NOT REMOVE)
       # - "/example/family:/photoprism/originals/family" # *Additional* media folders can be mounted like this
       # - "~/Import:/photoprism/import"                  # *Optional* base folder from which files can be imported to originals
